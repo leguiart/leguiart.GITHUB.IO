@@ -10,7 +10,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 940px; 
+  max-width: 940px;
   padding: 0 5px;
 }
 
@@ -21,7 +21,7 @@ body {
   background: linear-gradient(-25deg, #35577D, #141E30);
   background-size: cover;
   height: 400px;
-  text-align: center; 
+  text-align: center;
 }
 
 .header .container {
@@ -31,7 +31,7 @@ body {
 
 .header h1 {
   color: #fff;
-  line-height: 100px; 
+  line-height: 100px;
   font-size: 200px;
   margin-top: 0;
   margin-bottom: 0px;
@@ -50,15 +50,15 @@ body {
   letter-spacing: 8px;
   margin-bottom: 40px;
   margin-top: 0;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .btn {
   color: #fff;
   background: #000;
   padding: 40px 20px;
-  text-decoration: none; 
-  transition: background .5s; 
+  text-decoration: none;
+  transition: background .5s;
   border: solid 1px white;
 }
 
@@ -71,33 +71,33 @@ img.btn {
   background: none;
 }
 
-.nav { 
+.nav {
   background: #000;
-  height: 80px; 
+  height: 80px;
   width: 100%;
 }
 
 .nav ul {
   height: 80px;
   list-style: none;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 0;
 }
 
 .nav ul li {
   color: #fff;
-  display: inline-block; 
+  display: inline-block;
   height: 80px;
-  line-height: 80px; 
+  line-height: 80px;
   list-style: none;
   padding: 0 10px;
-  transition: background .5s; 
+  transition: background .5s;
 }
 
 .btn:hover, .nav ul li:hover {
   background: #117bff;
-  cursor: pointer; 
-  transition: background .5s;  
+  cursor: pointer;
+  transition: background .5s;
 }
 
 .main .container {
@@ -115,7 +115,7 @@ img.btn {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(35deg, #35577D, #141E30) center center;
   background-size: cover;
-  height: 600px; 
+  height: 600px;
 }
 
 .jumbotron .container {
@@ -125,31 +125,31 @@ img.btn {
 
 .jumbotron h2 {
   color: #fff;
-  text-align: right; 
+  text-align: right;
 }
 
 .jumbotron p {
-  color: #fff; 
-  text-align: right; 
+  color: #fff;
+  text-align: right;
 }
 
 .jumbotron .btn {
   margin: 10px 0 0;
-  float: right; 
+  float: right;
 }
 
-.footer { 
+.footer {
   background: #000;
-  height: 80px; 
+  height: 80px;
   padding-bottom: 50px;
 }
 
-.footer p { 
+.footer p {
   color: #fff;
-  font-size: 14px;  
-  height: 80px; 
+  font-size: 14px;
+  height: 80px;
   line-height: 80px;
-  margin: 0;  
+  margin: 0;
 }
 
 @media (max-width: 500px) {
@@ -165,6 +165,22 @@ img.btn {
   .main img {
     width: 100%;
   }
+}
+
+#pdf {
+    line-height: 100px;
+    margin: 0 auto; /* make em equal */
+    padding: 0 auto;
+      position: relative;
+      max-width: none;
+}
+
+#pdf-text{
+  color: black;
+  line-height: 100px;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
 }
 
 /* Table */
